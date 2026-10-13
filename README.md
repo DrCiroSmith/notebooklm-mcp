@@ -46,14 +46,14 @@ This is the recommended path for end users. `npx` keeps the binary cached and se
 ### From source
 
 ```bash
-git clone https://github.com/PleasePrompto/notebooklm-mcp
+git clone https://github.com/DrCiroSmith/notebooklm-mcp
 cd notebooklm-mcp
-npm install
+npm ci
 npm run build
 node dist/index.js
 ```
 
-The `prepare` script also runs `npm run build`, so a fresh `npm install` produces a runnable `dist/index.js`.
+`npm ci` is recommended for clean environments because it installs exactly from `package-lock.json`. The `prepare` script also runs `npm run build`, so a fresh install produces a runnable `dist/index.js`.
 
 ---
 

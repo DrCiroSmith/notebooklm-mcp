@@ -30,16 +30,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PleasePrompto/notebooklm-mcp.git"
+    "url": "git+https://github.com/DrCiroSmith/notebooklm-mcp.git"
   },
-  "homepage": "https://github.com/PleasePrompto/notebooklm-mcp#readme",
+  "homepage": "https://github.com/DrCiroSmith/notebooklm-mcp#readme",
   "bugs": {
-    "url": "https://github.com/PleasePrompto/notebooklm-mcp/issues"
+    "url": "https://github.com/DrCiroSmith/notebooklm-mcp/issues"
   },
   "files": [
     "dist",
     "README.md",
-    "NOTEBOOKLM_USAGE.md",
     "LICENSE",
     "docs"
   ],
